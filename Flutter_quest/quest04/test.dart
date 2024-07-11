@@ -99,3 +99,5 @@ class FigmaToCodeApp extends StatelessWidget {
   }
 
 }
+// 이전 학습때와 같은 동작구현을 위해 동일하게 작성했으나 작동하지 않아서 시간이 많이 걸렸다.
+// container배치하는 것은 익숙해졌다.
