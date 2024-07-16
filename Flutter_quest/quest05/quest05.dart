@@ -120,3 +120,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+//아이콘과 debug console에 출력은 완성하지 못했지만 배웠던 것을 응용해서 기본 동작을 구현하는데 어려움은 크게 없었다.
+//추가적으로 아이콘 debugconsole 출력을 복습할 예정이다.
