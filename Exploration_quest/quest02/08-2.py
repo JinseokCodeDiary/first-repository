@@ -111,3 +111,4 @@ for i in range(50, 100):
     print("실제 요약 :", seq2summary(decoder_input_test[i]))
     print("예측 요약 :", decode_sequence(encoder_input_test[i].reshape(1, -1)))
     print("\n")
+//회고 박진석 : 파일 저장 습관화, 데이터 전처리의 중요성을 알아갈 수 있는 경험이었다.
