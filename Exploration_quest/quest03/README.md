@@ -7,3 +7,6 @@ readme
 
 # 박진석
   - api연동만 되었으면 완성인데 아쉽고 이 부분을 많이 시도해봐야겠다
+
+## 코드는 3명분을 한번에 올리다 보니 섞였습니다 프로그램은 노션페이지 참고 바랍니다
+  https://www.notion.so/modulabs/Exploration03-cf014ae664434ef08574f19ae040ec93
