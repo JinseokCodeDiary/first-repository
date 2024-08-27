@@ -3,12 +3,14 @@ readme
 
 ## 박진석 
   - 여러 모델을 시도를 해보았지만 패키지 문제나 현재 파이썬에서 작동시킬 수 없는 문제들로 확인해볼 수 없었던 것이 아쉬웠고,
+  - 
     오류 1. cannot import name 'BigGAN' from 'transformers' (/usr/local/lib/python3.10/dist-packages/transformers/__init__.py,
     
     오류 2.Failed to import diffusers.pipelines.stable_diffusion because of the following error (look up to see its traceback):
     cannot import name 'linear_util' from 'jax' (/usr/local/lib/python3.10/dist-packages/jax/__init__.py)
     
   - colab에서 아래의 오류가 발생했을 때 런타임 유형을 gpu로 바꿔서 해결했다.
+  - 
     오류 - Found no NVIDIA driver on your system. Please check that you have an NVIDIA GPU and installed a driver from http://www.nvidia.com/Download/index.aspx
 
 ## 서은재
