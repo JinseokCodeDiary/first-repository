@@ -1,6 +1,23 @@
+# 결과
+
+## meaniou
+    - 개선된 모델에서 가장 높은 meaniou가 나왔으며 유의미한 개선을 달성했다.
+        - encdoer/decoder = 0.474
+        - Unet(original) = 0.476
+        - Unet(encoder=vgg16) = 0.713
+        
+## loss(세 모델을 비교하기 위해 epoch수를 동일하게 맞춰줌)
+    - loss는 Unet(original)에서 가작 적게 나왔지만 Unet(encoder=vgg16)의 loss 그래프를 보면 계속 떨어지고
+      있으므로 과적합이 일어 났을 땐 수치상 의미없는 차이는 없을 것으로 생각됩니다
+        - encdoer/decoder = 1이상
+        - Unet(original) = 0(loss, val_loss둘 다 0)
+        - Unet(encoder=vgg16) = 약 0.4
+        
+## segmention 이미지
+    - ipynb파일 참고 바랍니다.    
 # 회고
 
-## 이번 프로젝트는 segmention 실습뿐만아니라 앞으로 발전해 나갈 수 있도록 나 스스로 과제를 만들어주는 노드였다  
+## 이번 프로젝트는 segmention 실습뿐만아니라 앞으로 발전해 나갈 수 있도록 <br> 나 스스로 과제를 만들어주는 노드였다  
 
     - encoder 부분에 vgg16모델을 넣어 encoder를 분류 모델의 fully connected layer이전 부분을 사용하는 점이 새롭고 흥미로웠다.
     - vgg16모델보다 개선된 xception이나 EfficientNet을 사용해서 meaniou를 비교해보아야겠다.
