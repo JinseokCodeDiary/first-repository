@@ -9,7 +9,7 @@
         
 ### loss(세 모델을 비교하기 위해 epoch수를 동일하게 맞춰줌)
     - loss는 Unet(original)에서 가작 적게 나왔지만 Unet(encoder=vgg16)의 loss 그래프를 보면 계속 떨어지고
-      있으므로 과적합이 일어 났을 땐 수치상 의미없는 차이는 없을 것으로 생각됩니다
+      있으므로 과적합이 일어 났을 땐 수치상 의미없는 차이가 나올 것으로 생각됩니다
         - encdoer/decoder = 1이상
         - Unet(original) = 0(loss, val_loss둘 다 0)
         - Unet(encoder=vgg16) = 약 0.4
